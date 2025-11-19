@@ -1,0 +1,26 @@
+.app {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.app--loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  font-size: 18px;
+  color: #2980b9;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

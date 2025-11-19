@@ -1,0 +1,59 @@
+.unit-card {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.unit-card__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2980b9;
+  font-size: 20px;
+}
+
+.unit-card__table-container {
+  overflow-x: auto;
+}
+
+.unit-card__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.unit-card__th {
+  padding: 12px;
+  text-align: left;
+  background-color: #3a3a3a;
+  border-bottom: 2px solid #2980b9;
+  color: #ffffff;
+}
+
+.unit-card__tr {
+  border-bottom: 1px solid #3a3a3a;
+  transition: background-color 0.2s;
+}
+
+.unit-card__tr:hover {
+  background-color: #333;
+}
+
+.unit-card__td {
+  padding: 12px;
+  color: #ccc;
+}
+
+.unit-card__delete-button {
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.unit-card__delete-button:hover {
+  background-color: #c0392b;
+}
