@@ -7,4 +7,5 @@ export interface User {
   maxUnits?: number;
   password?: string;
   createdAt?: string;
+  nomeEmpresa?: string;
 }
